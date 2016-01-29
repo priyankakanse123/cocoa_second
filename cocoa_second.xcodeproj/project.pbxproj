@@ -13,6 +13,7 @@
 		0A19F2121C23CBF400CA09E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A19F2101C23CBF400CA09E4 /* MainMenu.xib */; };
 		0A19F21D1C23CBF400CA09E4 /* cocoa_secondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F21C1C23CBF400CA09E4 /* cocoa_secondTests.m */; };
 		0A19F2281C23CBF400CA09E4 /* cocoa_secondUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2271C23CBF400CA09E4 /* cocoa_secondUITests.m */; };
+		0A19F2381C23E18300CA09E4 /* editName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A19F2371C23E18300CA09E4 /* editName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		0A19F2231C23CBF400CA09E4 /* cocoa_secondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoa_secondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A19F2271C23CBF400CA09E4 /* cocoa_secondUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_secondUITests.m; sourceTree = "<group>"; };
 		0A19F2291C23CBF500CA09E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A19F2361C23DF6B00CA09E4 /* editName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editName.h; sourceTree = "<group>"; };
+		0A19F2371C23E18300CA09E4 /* editName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editName.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				0A19F2101C23CBF400CA09E4 /* MainMenu.xib */,
 				0A19F2131C23CBF400CA09E4 /* Info.plist */,
 				0A19F20B1C23CBF400CA09E4 /* Supporting Files */,
+				0A19F2361C23DF6B00CA09E4 /* editName.h */,
+				0A19F2371C23E18300CA09E4 /* editName.m */,
 			);
 			path = cocoa_second;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				0A19F20D1C23CBF400CA09E4 /* main.m in Sources */,
 				0A19F20A1C23CBF400CA09E4 /* AppDelegate.m in Sources */,
+				0A19F2381C23E18300CA09E4 /* editName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +489,7 @@
 				0A19F22E1C23CBF500CA09E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A19F22F1C23CBF500CA09E4 /* Build configuration list for PBXNativeTarget "cocoa_secondTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				0A19F2311C23CBF500CA09E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A19F2321C23CBF500CA09E4 /* Build configuration list for PBXNativeTarget "cocoa_secondUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +507,7 @@
 				0A19F2341C23CBF500CA09E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
